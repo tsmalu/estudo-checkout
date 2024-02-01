@@ -113,9 +113,6 @@ background-color: hsl(224, 23%, 55%);
     color: hsl(223, 47%, 23%);
 }
 
-
-
-
 .attribution {
   font-size: 14px;
   text-align: center;
@@ -125,3 +122,31 @@ background-color: hsl(224, 23%, 55%);
   width: 100%; 
   padding: 16px
 }
+
+
+@media only screen and (max-width: 425px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 87%;
+    }
+    .title {
+        font-size: 24px;
+    }
+
+    div.planbox {
+        padding: 12px;
+    }
+
+    .planbox-left div {
+        margin-left: ;
+    }
+
+    .planbox-left div h5 { 
+        font-weight: 900;
+        font-size: 16px;
+        color: hsl(223, 47%, 23%);
+    }
